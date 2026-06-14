@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, redirect, url_for
 import hashlib
 import random
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder='Templates')
 
 # ==============================================================================
 # LOG PROSES TAHAP 1 & 2: DEFINISI MASALAH, LOGIKA PROPOSISI, & TEORI HIMPUNAN
